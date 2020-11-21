@@ -1,0 +1,17 @@
+# ElasticSearch注意点
+
+## 1. refresh和flush的区别，更新文档后什么时候会更新到倒排索引，更新或插入文档后什么时候会更新filter内存
+
+## 2. es更新时版本控制
+
+## 3. filter具体怎么回事， filer内存置换策略？哪些适合用filer，哪些不适合用filer
+
+## 4. match上下文和filter上下文
+
+## 5. 父子文档和嵌套文档
+
+## 6. rest api汇总（keyworld和text的match和term查询；boolean查询和filter查询）
+
+## 7. 集群相关（node, shard，segment，setting, mapping）
+
+## 8. 订单侧优化方案
